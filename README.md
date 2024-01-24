@@ -14,7 +14,7 @@ These tasks include:
 1. Define a list of possible words
    Topics to remember:
    - When writing a list, ensure that each word is written in quotation marks
-   - Use square brackets [] when writing a list
+   - Use square brackets [ ] when writing a list
 2. Choose a random word from the list
    Topics to remember:
    - Ensure that import random is written in the first line of code
