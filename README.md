@@ -1,14 +1,14 @@
 # Project Title: Hangman
 
-##Table of Contents, if the README file is long
+## Table of Contents, if the README file is long
 TBD
 
-##A description of the project: what it does, the aim of the project, and what you learned
-###The game
+## A description of the project: what it does, the aim of the project, and what you learned
+### The game
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-###Initial tasks to recap learning
+### Initial tasks to recap learning
 milestone_1.py displays some of the tasks that were completed to ensure that I revisited some of the basics of Python Programming.
 These tasks include:
 1. Define a list of possible words
@@ -27,14 +27,14 @@ These tasks include:
 5. Update the latest code changes to GitHub
 
 
-##Installation instructions
+## Installation instructions
 TBD
 
-##Usage instructions
+## Usage instructions
 TBD
 
-##File structure of the project
+## File structure of the project
 TBD
 
-##License information
+## License information
 TBD
