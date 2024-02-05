@@ -20,6 +20,12 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 2. Check whether the guess is in the word
 3. Create functions to run the checks
 
+### Create the Game class
+1. Create the class
+2. Create methods for running the checks
+3. Define what happens if the letter is in the word
+4. Deine what happens if the letter is not in the word
+
 ## Installation instructions
 TBD
 
