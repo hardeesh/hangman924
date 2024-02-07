@@ -6,7 +6,7 @@ class Hangman:
         self.num_lives = num_lives
         self.word = random.choice(word_list)
         self.word_guessed = ['_'] * len(self.word)
-        self.num_letters = len(self.word)
+        self.num_letters = len(set(self.word))
         self.list_of_guesses = []
                       
     def check_guess(self, guess):
@@ -16,7 +16,7 @@ class Hangman:
             for index, letter in enumerate(self.word):
                 if self.word[index] == guess:
                     self.word_guessed[index] = guess 
-            self.num_lives -= 1
+            self.num_letters -= 1
             print(self.word_guessed)
         else:
             self.num_lives -= 1
@@ -42,10 +42,11 @@ def play_game(word_list):
             break
         if game.num_letters > 0:
             game.ask_for_input()
-        if game.num_lives != 0 and game.num_letters < 0:
+        if game.num_lives != 0 and game.num_letters <= 0:
             print("Congratulations, you have won the game!")
             break
 
-play_game(["apple", "pear"])
+word_list = ["apple", "pear"]
+play_game(word_list)
 
 
